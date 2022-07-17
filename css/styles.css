@@ -1,0 +1,83 @@
+:root {
+  --primery-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --dark-bg-color: #2f303a;
+  --light-txt-color: #ffffff;
+  --active-txt-color: #2196f3;
+  --primery-txt-color: #212121;
+  --secondary-txt-color: #757575;
+  --footer-contacts-txt-color: rgba(255, 255, 255, 0.6);
+  --logo-head-txt-color: #000000;
+  --main-font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: var(--primery-bg-color);
+  color: var(--primery-txt-color);
+  font-family: var(--main-font-family);
+}
+
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* ------------ HEADER ------------ */
+.logo {
+  color: var(--active-txt-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-head-color {
+  color: var(--logo-head-txt-color);
+}
+.logo-ftr-color {
+  color: var(--light-txt-color);
+}
+.main-nav .link {
+  color: inherit;
+}
+.contacts-nav-list {
+  color: var(--secondary-txt-color);
+}
+.main-nav .link:hover,
+.main-nav .link:focus,
+.main-nav .link.current {
+  color: var(--active-txt-color);
+}
+
+.contacts-nav-list:hover,
+.contacts-nav-list:focus {
+  color: var(--active-txt-color);
+}
+
+/* primery-bg-color: #FFFFFF;
+dark-bg-color #2F303A;
+secondary-bg-color: #F5F4FA;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+logo-font-size: Raleway 700; 
+prime-font-size: Roboto 400;
+secondary-font-size: Roboto 500; 
+headline-font-size: Roboto 700; 
+font-family: Roboto 900;
+
+logo-color: #000000
+secondary-txt-color: #2196F3;
+nav-color+H+btn: 212121;
+contact-color: 757575;
+main-txt-color: FFFFFF;
+footer-contacts-txt-color: rgba(255, 255, 255, 0.6);
+
+
+
+ */
+
+/* -------------- FOOTER ---------------- */
