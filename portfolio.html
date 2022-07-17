@@ -31,18 +31,18 @@
       </ul>
     </header>
     <main>
-      <section>
+      <section class="portfolio">
         <h1 hidden>Примеры работ</h1>
-        <!-- FILTER -->
+        <!-- PORTFOLIO FILTER -->
         <ul class="list">
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+          <li><button type="button" class="filter-btn curent">Все</button></li>
+          <li><button type="button" class="filter-btn">Веб-сайты</button></li>
+          <li><button type="button" class="filter-btn">Приложения</button></li>
+          <li><button type="button" class="filter-btn">Дизайн</button></li>
+          <li><button type="button" class="filter-btn">Маркетинг</button></li>
         </ul>
         <!-- PORTFOLIO -->
-        <ul class="list">
+        <ul class="portfolio-list list">
           <li>
             <img
               src="./images/portfolio/project1.jpg"
@@ -138,18 +138,19 @@
     </main>
     <footer class="footer-nav">
       <a lang="en" href="" class="logo">Web<span class="logo-ftr-color">Studio</span></a>
-      <address>
+      <address class="address">
         <ul class="list">
           <li>
             <a
               href="https://goo.gl/maps/zRHJoUfgEX58yUW17"
               target="_blank"
               rel="noopener noreferrer"
+              class="address-list"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li><a href="mailto:info@example.com" class="contacts-list">info@example.com</a></li>
+          <li><a href="tel:+380991111111" class="contacts-list">+38 099 111 11 11</a></li>
         </ul>
       </address>
     </footer>

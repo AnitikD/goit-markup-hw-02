@@ -14,6 +14,7 @@ body {
   background-color: var(--primery-bg-color);
   color: var(--primery-txt-color);
   font-family: var(--main-font-family);
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -24,14 +25,13 @@ a {
   font-style: normal;
 }
 
-/* ------------ HEADER ------------ */
+/* ----------- LOGO ---------- */
 .logo {
   color: var(--active-txt-color);
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .logo-head-color {
@@ -40,11 +40,21 @@ a {
 .logo-ftr-color {
   color: var(--light-txt-color);
 }
+/* ------------ HEADER ------------ */
+
 .main-nav .link {
   color: inherit;
 }
 .contacts-nav-list {
   color: var(--secondary-txt-color);
+}
+
+.main-nav,
+.contacts-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .main-nav .link:hover,
 .main-nav .link:focus,
@@ -57,27 +67,115 @@ a {
   color: var(--active-txt-color);
 }
 
-/* primery-bg-color: #FFFFFF;
-dark-bg-color #2F303A;
-secondary-bg-color: #F5F4FA;
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
+/* --------------- MAIN ----------------- */
 
-logo-font-size: Raleway 700; 
-prime-font-size: Roboto 400;
-secondary-font-size: Roboto 500; 
-headline-font-size: Roboto 700; 
-font-family: Roboto 900;
+/* --------------- HERO ----------------- */
+.hero {
+  color: var(--light-txt-color);
+  background-color: var(--dark-bg-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-btn {
+  font-family: inherit;
+  color: var(--light-txt-color);
+  background-color: var(--active-txt-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* -------------- OUR ADVANTAGES ---------------- */
 
-logo-color: #000000
-secondary-txt-color: #2196F3;
-nav-color+H+btn: 212121;
-contact-color: 757575;
-main-txt-color: FFFFFF;
-footer-contacts-txt-color: rgba(255, 255, 255, 0.6);
+.advantages-title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.advantages-text {
+  color: var(--primery-txt-color);
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* -------------- ABOUT US ---------------- */
 
+.about-title,
+.team-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
 
+/* -------------- OUR TEAM ---------------- */
 
- */
+.section-team {
+  background-color: var(--secondary-bg-color);
+}
+.team-card {
+  background-color: var(--primery-bg-color);
+}
+.team-card h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.function-team {
+  color: var(--secondary-txt-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* -------------- PORTFOLIO FILTER ---------------- */
+.filter-btn {
+  color: inherit;
+  background-color: var(--secondary-bg-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.filter-btn:hover,
+.filter-btn:focus,
+.filter-btn.curent {
+  color: var(--light-txt-color);
+  background-color: var(--active-txt-color);
+}
+
+/* -------------- PORTFOLIO ---------------- */
+.portfolio-list h2 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-list p {
+  color: var(--secondary-txt-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
 
 /* -------------- FOOTER ---------------- */
+.footer-nav {
+  background-color: var(--dark-bg-color);
+}
+.address-list {
+  color: var(--light-txt-color);
+}
+.contacts-list {
+  color: var(--footer-contacts-txt-color);
+}
+.address {
+  font-size: 14px;
+  line-height: 1.7;
+}
