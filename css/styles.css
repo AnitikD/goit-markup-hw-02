@@ -179,3 +179,9 @@ a {
   font-size: 14px;
   line-height: 1.7;
 }
+.address-list:hover,
+.address-list:focus,
+.contacts-list:hover,
+.contacts-list:focus {
+  color: var(--active-txt-color);
+}
