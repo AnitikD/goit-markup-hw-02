@@ -14,15 +14,13 @@ body {
   background-color: var(--primery-bg-color);
   color: var(--primery-txt-color);
   font-family: var(--main-font-family);
-  letter-spacing: 0.03em;
 }
 
 .list {
   list-style: none;
 }
-a {
+.link {
   text-decoration: none;
-  font-style: normal;
 }
 
 /* ----------- LOGO ---------- */
@@ -32,6 +30,7 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .logo-head-color {
@@ -42,26 +41,23 @@ a {
 }
 /* ------------ HEADER ------------ */
 
-.main-nav .link {
+.main-nav-link {
   color: inherit;
 }
 .contacts-nav-list {
   color: var(--secondary-txt-color);
 }
 
-.main-nav,
+.main-nav-link,
 .contacts-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.main-nav .link:hover,
-.main-nav .link:focus,
-.main-nav .link.current {
-  color: var(--active-txt-color);
-}
-
+.main-nav-link:hover,
+.main-nav-link:focus:focus,
+.main-nav-link.current,
 .contacts-nav-list:hover,
 .contacts-nav-list:focus {
   color: var(--active-txt-color);
@@ -88,7 +84,7 @@ a {
   background-color: var(--active-txt-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -98,12 +94,14 @@ a {
 .advantages-title {
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .advantages-text {
-  color: var(--primery-txt-color);
+  color: var(--secondary-txt-color);
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 /* -------------- ABOUT US ---------------- */
 
@@ -112,6 +110,7 @@ a {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* -------------- OUR TEAM ---------------- */
@@ -122,11 +121,12 @@ a {
 .team-card {
   background-color: var(--primery-bg-color);
 }
-.team-card h3 {
+.team-employee {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .function-team {
@@ -134,6 +134,7 @@ a {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* -------------- PORTFOLIO FILTER ---------------- */
@@ -154,16 +155,17 @@ a {
 }
 
 /* -------------- PORTFOLIO ---------------- */
-.portfolio-list h2 {
+.portfolio-list-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.portfolio-list p {
+.portfolio-list-text {
   color: var(--secondary-txt-color);
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
 }
 
 /* -------------- FOOTER ---------------- */
@@ -179,6 +181,7 @@ a {
 .address {
   font-size: 14px;
   line-height: 1.7;
+  font-style: normal;
 }
 .address-list:hover,
 .address-list:focus,
