@@ -19,7 +19,8 @@ body {
 .list {
   list-style: none;
 }
-.link {
+.link,
+.logo {
   text-decoration: none;
 }
 
